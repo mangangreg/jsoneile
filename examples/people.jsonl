@@ -1,0 +1,2 @@
+{"name": "John Doe", "age": 41, "active": false}
+{"name": "Jane Doe", "age": 39, "active": true, "contact": {"email": "jane@example.com"} }

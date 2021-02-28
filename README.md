@@ -26,7 +26,7 @@ The `jsonl` module adds four methods that have director counterparts in the `jso
 |Dump string|`json.dumps`  |`jsonl.dumps_jsonl`|
 
 
-## Usage
+# Usage
 The `jsonl` module actually imports everything from the `json` module, so that all methods can be accessed from one source (so for example you can call `jsonl.loads` to access the `json.loads` method).
 
 As a result of this, and for even more convenience, the `jsonl` module can be imported in place of the standard `json` module

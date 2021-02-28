@@ -5,7 +5,7 @@ A simple extension of the Python `json` module to allow for quick reading/writin
 JSONL (or JSON Lines) is a text format that uses newline-delimited JSON.
 >  ... the JSON Lines text format, also called newline-delimited JSON. JSON Lines is a convenient format for storing structured data that may be processed one record at a time. It works well with unix-style text processing tools and shell pipelines. It's a great format for log files. It's also a flexible format for passing messages between cooperating processes.
 >  
-from (JSONLines.org)[https://jsonlines.org/]
+from [JSONLines.org](https://jsonlines.org/)
 
 JSONL files have three properties:
 1. UTF-8 encoding

@@ -31,7 +31,8 @@ def dump_jsonl(data, fp, **kwargs):
 
     Inputs:
         - data (list): A list of JSON-serializable objects
-        - **kwargs: to be passed to json.dumps
+        - fp (io) a .write()-supporting file-like object
+        - **kwargs: to be passed to json.dump
     Output:
         None
     '''

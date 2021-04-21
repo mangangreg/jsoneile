@@ -16,7 +16,7 @@ The standard python `json` module does not have any convenience methods for read
 
 
 # Methods
-The `jsonl` module adds four methods that have director counterparts in the `json` package.
+The `jsonl` module adds four methods that have direct counterparts in the `json` package.
 
 ||json|jsonl
 |--|--|--|
@@ -27,15 +27,13 @@ The `jsonl` module adds four methods that have director counterparts in the `jso
 
 
 # Usage
-The `jsonl` module actually imports everything from the `json` module, so that all methods can be accessed from one source (so for example you can call `jsonl.loads` to access the `json.loads` method).
-
-As a result of this, and for even more convenience, the `jsonl` module can be imported in place of the standard `json` module
+The `jsonl` module imports everything from the `json` module, so that all methods can be accessed from one source (so for example you can call `jsonl.loads` to access the `json.loads` method). As a result of this,  the `jsonl` module can be imported in place of the standard `json` module for convenienvce
 ```python
 import jsonl as json
 ```
 All of the regular `json` module methods will still be accessible, as well as the additional methods for JSONL. 
 
-**Note**: All of the examples below assume that `jsonl` has been imported as `json`. 
+**Note: All of the examples below assume that `jsonl` has been imported as `json`.**
 
 
 
@@ -78,7 +76,7 @@ This can be output to `people_output.jsonl` as follows:
 
 ```python
 with open('people_output.jsonl','w') as wfile:
-    json.dump_jsonl(example, wfile)
+    json.dump_jsonl(people, wfile)
 ```
 This will write out a file that is identical to `example.jsonl`.
 

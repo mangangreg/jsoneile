@@ -1,5 +1,8 @@
-# jsonl
+# jsoneile
+
 A simple extension of the Python `json` module to allow for quick reading/writing of the JSONL file format.
+
+(*Pronounced ja-son-eh-luh*)
 
 # What is JSONL?
 JSONL (or JSON Lines) is a text format that uses newline-delimited JSON.
@@ -16,24 +19,24 @@ The standard python `json` module does not have any convenience methods for read
 
 
 # Methods
-The `jsonl` module adds four methods that have direct counterparts in the `json` package.
+The `jsoneile` module adds four methods that have direct counterparts in the `json` package.
 
 ||json|jsonl
 |--|--|--|
-|Load file|`json.load`  |`jsonl.load_jsonl`|
-|Dump file|`json.dump`  |`jsonl.dump_jsonl`|
-|Load string|`json.loads`  |`jsonl.loads_jsonl`|
-|Dump string|`json.dumps`  |`jsonl.dumps_jsonl`|
+|Load file|`json.load`  |`jsoneile.load_jsonl`|
+|Dump file|`json.dump`  |`jsoneile.dump_jsonl`|
+|Load string|`json.loads`  |`jsoneile.loads_jsonl`|
+|Dump string|`json.dumps`  |`jsoneile.dumps_jsonl`|
 
 
 # Usage
-The `jsonl` module imports everything from the `json` module, so that all methods can be accessed from one source (so for example you can call `jsonl.loads` to access the `json.loads` method). As a result of this,  the `jsonl` module can be imported in place of the standard `json` module for convenienvce
+The `jsoneile` module imports everything from the `json` module, so that all methods can be accessed from one source (so for example you can call `jsoneile.loads` to access the `json.loads` method). As a result of this,  the `jsoneile` module can be imported in place of the standard `json` module for convenienvce
 ```python
 import jsonl as json
 ```
 All of the regular `json` module methods will still be accessible, as well as the additional methods for JSONL. 
 
-**Note: All of the examples below assume that `jsonl` has been imported as `json`.**
+**Note: All of the examples below assume that `jsoneile` has been imported as `json`.**
 
 
 
@@ -110,7 +113,7 @@ Similarly, a JSONL string can be read back in as an object using the `loads_json
 ```
 
 ## Regular JSON usage
-All other methods in the standard `json` module are imported by `jsonl`. If you have imported `jsonl` as `json` then you can directly call `json.dump`, `json.load` as normal.
+All other methods in the standard `json` module are imported by `jsonl`. If you have imported `jsoneile` as `json` then you can directly call `json.dump`, `json.load` as normal.
 
 
 ## References

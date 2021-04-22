@@ -2,7 +2,7 @@
 
 A simple extension of the Python `json` module to allow for quick reading/writing of the JSONL file format.
 
-(*Pronounced ja-son-eh-luh*)
+(*Pronounced: jay-son-eh-luh*)
 
 # What is JSONL?
 JSONL (or JSON Lines) is a text format that uses newline-delimited JSON.
